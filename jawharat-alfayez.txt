@@ -1,81 +1,65 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <title>جوهرة الفايز للزجاج والسيكوريت والمرايا</title>
-  <meta name="description" content="جوهرة الفايز للزجاج والسيكوريت والمرايا في المدينة المنورة">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body{margin:0;font-family:Tahoma,Arial;background:#f5f5f5;color:#222}
-    header{background:#111;color:#fff;padding:30px;text-align:center}
-    section{padding:30px}
-    .btn{display:inline-block;padding:12px 18px;background:#0a7;color:#fff;text-decoration:none;border-radius:6px;margin:5px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:15px}
-    .card{background:#fff;border-radius:10px;padding:15px}
-    .ph{height:160px;background:#ddd;border-radius:8px;
-         display:flex;align-items:center;justify-content:center;color:#777;font-size:14px}
-    footer{background:#222;color:#eee;text-align:center;padding:15px}
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>جوهرة الفايز للزجاج والسيكوريت والمرايا</h1>
-  <p>زجاج سيكوريت – مرايا – كبائن شاور – درابزين زجاج | المدينة المنورة</p>
-  <a class="btn" href="tel:+966550263505">اتصل الآن</a>
-  <a class="btn" href="https://wa.me/966550263505">واتساب</a>
-</header>
-
+<!-- ===== خدماتنا ===== -->
 <section>
-  <h2>الخدمات</h2>
+  <h2>خدماتنا</h2>
   <div class="grid">
+
     <div class="card">
-      <div class="ph">مكان صور زجاج سيكوريت</div>
+      <img src="uploaded/securit_baraza.jpg" alt="زجاج سيكوريت للواجهات والمحلات">
       <h3>زجاج سيكوريت</h3>
-      <p>أبواب وواجهات زجاجية آمنة بجودة عالية.</p>
+      <p>أبواب، فواصل، وواجهات زجاجية سيكوريت بتصاميم عصرية وتشطيب احترافي.</p>
     </div>
+
     <div class="card">
-      <div class="ph">مكان صور مرايا</div>
+      <img src="uploaded/mirror_sweetbeauty.jpg" alt="مرايا صالونات Sweet Beauty">
       <h3>مرايا</h3>
-      <p>مرايا حمامات وديكور بمقاسات خاصة.</p>
+      <p>مرايا ديكور، صالونات، حمامات، ومرايا جدارية بتصاميم فاخرة ومقاسات مخصصة.</p>
     </div>
+
     <div class="card">
-      <div class="ph">مكان صور كبائن شاور</div>
+      <img src="uploaded/shower_modern1.jpg" alt="كابينة شاور زجاجية فاخرة">
       <h3>كبائن شاور</h3>
-      <p>كبائن زجاج عصرية بتشطيب احترافي.</p>
+      <p>كبائن شاور زجاجية بإطارات أنيقة وتشطيب احترافي يناسب الحمامات الحديثة.</p>
     </div>
+
     <div class="card">
-      <div class="ph">مكان صور درابزين</div>
+      <img src="uploaded/railing_stairs.jpg" alt="درابزين زجاج للسلالم">
       <h3>درابزين زجاج</h3>
-      <p>حلول آمنة للسلالم والبلكونات.</p>
+      <p>درابزين زجاجي للسلالم والمسابح بأمان عالي وتصميم أنيق.</p>
     </div>
+
   </div>
 </section>
 
+<!-- ===== أعمالنا ===== -->
 <section>
   <h2>أعمالنا</h2>
   <div class="grid">
-    <div class="ph">صورة عمل</div>
-    <div class="ph">صورة عمل</div>
-    <div class="ph">صورة عمل</div>
-    <div class="ph">صورة عمل</div>
+
+    <!-- مرايات -->
+    <img src="uploaded/mirror_sweetbeauty.jpg" alt="مرايا صالون Sweet Beauty">
+    <img src="uploaded/mirror_salon_round.jpg" alt="مرايا دائرية للصالونات">
+    <img src="uploaded/mirror_diamond.jpg" alt="مرايا ديكور بشكل ألماسي">
+    <img src="uploaded/mirror_panels.jpg" alt="مرايا جدارية بانورامية">
+    <img src="uploaded/mirror_arch_stairs.jpg" alt="مرايا ديكور على السلم">
+    <img src="uploaded/mirror_oval_gold.jpg" alt="مرايا بيضاوية بإطار ذهبي">
+    <img src="uploaded/mirror_double_sink.jpg" alt="مرايا مزدوجة فوق مغسلة رخام">
+    <img src="uploaded/mirror_arabesque_restroom.jpg" alt="مرايا مضيئة في دورة مياه عامة">
+
+    <!-- شاورات -->
+    <img src="uploaded/shower_modern1.jpg" alt="كابينة شاور فاخرة بإطار أسود">
+    <img src="uploaded/shower_modern2.jpg" alt="كابينة شاور مع نافذة جانبية">
+
+    <!-- درابزين -->
+    <img src="uploaded/railing_stairs.jpg" alt="درابزين زجاج للسلالم">
+    <img src="uploaded/railing_pool.jpg" alt="درابزين زجاج للمسابح">
+    <img src="uploaded/railing_indoor.jpg" alt="درابزين داخلي زجاجي بتصميم حديث">
+
+    <!-- سيكوريت -->
+    <img src="uploaded/securit_baraza.jpg" alt="واجهة زجاج سيكوريت لمحل Baraza">
+    <img src="uploaded/securit_outdoor_room.jpg" alt="غرفة خارجية بزجاج سيكوريت">
+    <img src="uploaded/securit_salama.jpg" alt="فاصل زجاج سيكوريت لمركز صحي">
+    <img src="uploaded/securit_kitchen.jpg" alt="مطبخ زجاج سيكوريت بإطار أسود">
+    <img src="uploaded/securit_display.jpg" alt="كونتر عرض زجاجي بإضاءة LED">
+
   </div>
 </section>
-
-<section>
-  <h2>اتصل بنا</h2>
-  <p>📞 +966550263505</p>
-  <div style="margin-top:15px">
-    <iframe
-      src="https://www.google.com/maps?q=جوهرة%20الفايز%20للزجاج%20والسيكوريت%20والمرايا&output=embed"
-      width="100%" height="300" style="border:0;border-radius:10px;" loading="lazy">
-    </iframe>
-  </div>
-</section>
-
-<footer>
-  © جوهرة الفايز – المدينة المنورة
-</footer>
-
-</body>
-</html>
