@@ -10,22 +10,15 @@ body {
   font-family: Tahoma, Arial;
   margin: 0;
   background: #f5f5f5;
-  color: #222;
   text-align: center;
 }
 
-h1, h2 {
-  margin: 20px 0;
-}
+h1, h2 { margin: 20px 0; }
 
 .hero-image img {
   width: 100%;
   max-height: 400px;
   object-fit: cover;
-}
-
-section {
-  padding: 20px;
 }
 
 .gallery {
@@ -45,7 +38,7 @@ section {
   object-fit: cover;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
 }
 
 .whatsapp-btn {
@@ -64,10 +57,8 @@ section {
 #lightbox {
   display: none;
   position: fixed;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.85);
+  inset: 0;
+  background: rgba(0,0,0,.85);
   justify-content: center;
   align-items: center;
   z-index: 999;
@@ -76,7 +67,6 @@ section {
 #lightbox img {
   max-width: 90%;
   max-height: 90%;
-  border-radius: 10px;
 }
 </style>
 </head>
@@ -85,101 +75,91 @@ section {
 
 <h1>جوهرة الفايز للزجاج والسيكوريت والمرايا</h1>
 
-<section class="hero-image">
-  <img src="images/S.5.jpg" alt="واجهة جوهرة الفايز">
-</section>
+<!-- صورة الواجهة -->
+<div class="hero-image">
+  <img src="S.5.jpg" alt="واجهة جوهرة الفايز">
+</div>
 
 <!-- السيكوريت -->
-<section>
 <h2>أعمال السيكوريت</h2>
 <div class="gallery">
 <script>
-const securit = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19];
-securit.forEach(i => {
+for(let i=1;i<=19;i++){
 document.write(`
 <div class="image-box">
-<img src="images/S.${i}.jpg" onclick="openLightbox(this.src)">
-<a class="whatsapp-btn" target="_blank"
-href="https://wa.me/966550263505?text=استفسار عن زجاج سيكوريت">
-واتساب
-</a>
+  <img src="S.${i}.jpg" onclick="openLightbox(this.src)">
+  <a class="whatsapp-btn" target="_blank"
+     href="https://wa.me/966550263505?text=استفسار+عن+زجاج+سيكوريت">
+     واتساب
+  </a>
 </div>
 `);
-});
+}
 </script>
 </div>
-</section>
 
 <!-- الدرابزين -->
-<section>
 <h2>درابزين زجاج</h2>
 <div class="gallery">
 <script>
-[1,2,3,4,5,6].forEach(i => {
+for(let i=1;i<=6;i++){
 document.write(`
 <div class="image-box">
-<img src="images/D.${i}.jpg" onclick="openLightbox(this.src)">
-<a class="whatsapp-btn" target="_blank"
-href="https://wa.me/966550263505?text=استفسار عن درابزين زجاج">
-واتساب
-</a>
+  <img src="D.${i}.jpg" onclick="openLightbox(this.src)">
+  <a class="whatsapp-btn" target="_blank"
+     href="https://wa.me/966550263505?text=استفسار+عن+درابزين+زجاج">
+     واتساب
+  </a>
 </div>
 `);
-});
+}
 </script>
 </div>
-</section>
 
 <!-- الشاورات -->
-<section>
 <h2>كبائن شاور</h2>
 <div class="gallery">
 <script>
-[1,2,3,4,5,6].forEach(i => {
+for(let i=1;i<=6;i++){
 document.write(`
 <div class="image-box">
-<img src="images/B.${i}.jpg" onclick="openLightbox(this.src)">
-<a class="whatsapp-btn" target="_blank"
-href="https://wa.me/966550263505?text=استفسار عن كابينة شاور">
-واتساب
-</a>
+  <img src="B.${i}.jpg" onclick="openLightbox(this.src)">
+  <a class="whatsapp-btn" target="_blank"
+     href="https://wa.me/966550263505?text=استفسار+عن+كابينة+شاور">
+     واتساب
+  </a>
 </div>
 `);
-});
+}
 </script>
 </div>
-</section>
 
 <!-- المرايا -->
-<section>
 <h2>المرايا</h2>
 <div class="gallery">
 <script>
-[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20].forEach(i => {
+for(let i=1;i<=20;i++){
 document.write(`
 <div class="image-box">
-<img src="images/M.${i}.jpg" onclick="openLightbox(this.src)">
-<a class="whatsapp-btn" target="_blank"
-href="https://wa.me/966550263505?text=استفسار عن مرايا">
-واتساب
-</a>
+  <img src="M.${i}.jpg" onclick="openLightbox(this.src)">
+  <a class="whatsapp-btn" target="_blank"
+     href="https://wa.me/966550263505?text=استفسار+عن+مرايا">
+     واتساب
+  </a>
 </div>
 `);
-});
+}
 </script>
 </div>
-</section>
 
 <!-- أعمالنا -->
-<section>
 <h2>أعمالنا</h2>
 <div class="gallery">
-<div class="image-box"><img src="images/S.8.jpg" onclick="openLightbox(this.src)"></div>
-<div class="image-box"><img src="images/D.3.jpg" onclick="openLightbox(this.src)"></div>
-<div class="image-box"><img src="images/B.4.jpg" onclick="openLightbox(this.src)"></div>
-<div class="image-box"><img src="images/M.6.jpg" onclick="openLightbox(this.src)"></div>
+  <div class="image-box"><img src="S.8.jpg" onclick="openLightbox(this.src)"></div>
+  <div class="image-box"><img src="D.3.jpg" onclick="openLightbox(this.src)"></div>
+  <div class="image-box"><img src="B.4.jpg" onclick="openLightbox(this.src)"></div>
+  <div class="image-box"><img src="M.6.jpg" onclick="openLightbox(this.src)"></div>
 </div>
-</section>
 
 <!-- Lightbox -->
 <div id="lightbox" onclick="closeLightbox()">
@@ -187,12 +167,12 @@ href="https://wa.me/966550263505?text=استفسار عن مرايا">
 </div>
 
 <script>
-function openLightbox(src) {
-  document.getElementById("lightbox").style.display = "flex";
-  document.getElementById("lightbox-img").src = src;
+function openLightbox(src){
+  document.getElementById("lightbox").style.display="flex";
+  document.getElementById("lightbox-img").src=src;
 }
-function closeLightbox() {
-  document.getElementById("lightbox").style.display = "none";
+function closeLightbox(){
+  document.getElementById("lightbox").style.display="none";
 }
 </script>
 
